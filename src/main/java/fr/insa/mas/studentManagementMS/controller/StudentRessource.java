@@ -16,6 +16,11 @@ public class StudentRessource {
 		return 200;
 	}
 	
+	@GetMapping("/Status")
+	public String deployement() {
+		return "Deployement succeeds!";
+	}
+	
 	@GetMapping(value="/students/{id}")
 	public Student infoStudent(@PathVariable int id) {
 		Student student=new Student(id, "Rosa","Parks");
