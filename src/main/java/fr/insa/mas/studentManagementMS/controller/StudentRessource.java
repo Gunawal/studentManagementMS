@@ -16,7 +16,7 @@ public class StudentRessource {
 		return 200;
 	}
 	
-	@GetMapping("/Status")
+	@GetMapping("/status")
 	public String deployement() {
 		return "Deployement of the MS succeeds!";
 	}
