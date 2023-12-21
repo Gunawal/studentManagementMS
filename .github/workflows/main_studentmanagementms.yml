@@ -18,11 +18,7 @@ jobs:
           java-version: '11'
       - name: Build Project
         run: mvn clean install -DskipTests
-      - name: Upload Artifacct for deployment job
-        uses: actions/upload-artifact@v2
-        with:
-          name: springms
-          path: ${{ github.workspace }}/target/*.jar
+     
   deploy:
     runs-on: ubuntu-latest
     needs: build
