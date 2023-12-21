@@ -21,7 +21,7 @@ jobs:
       - name: Upload Artifacct for deployment job
         uses: actions/upload-artifact@v2
         with:
-          name: studentmanagementms
+          name: springms
           path: ${{ github.workspace }}/target/*.jar
   deploy:
     runs-on: ubuntu-latest
