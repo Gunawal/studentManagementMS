@@ -2,7 +2,7 @@ name: Spring Boot Apps
 on: push
 env:
   ASC_PACKAGE_PATH: ${{ github.workspace }}
-  JAVA_VERSION: 17
+  JAVA_VERSION: 11
   AZURE_SUBSCRIPTION: 391604f5-1661-47b6-9e23-a526913f5936
 
 jobs:
