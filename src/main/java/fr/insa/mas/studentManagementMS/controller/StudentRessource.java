@@ -23,7 +23,7 @@ public class StudentRessource {
 	
 	@GetMapping("/update")
 	public String update() {
-		return "Updating MS succeeds!";
+		return "Yes, updating MS succeeds! ";
 	}
 	
 	@GetMapping(value="/students/{id}")
