@@ -18,7 +18,7 @@ public class StudentRessource {
 	
 	@GetMapping("/status")
 	public String deployement() {
-		return "Deployement of the MS succeeds!";
+		return "Re-Deployement of the MS succeeds!";
 	}
 	
 	@GetMapping(value="/students/{id}")
